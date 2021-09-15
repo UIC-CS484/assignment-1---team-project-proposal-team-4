@@ -1,4 +1,4 @@
-/*Flexbox
+
 #container{
   width: 80%;
   display: flex;
@@ -40,10 +40,10 @@ footer{
   width: 150px;
   height: 150px;
   margin: 1%;
-}*/
+}
 
 
-/* Grid layout (in progress)
+/* Grid Layout
 #container{
   width: 80%;
   display: grid;
