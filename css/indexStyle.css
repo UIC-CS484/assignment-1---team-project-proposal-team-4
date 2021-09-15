@@ -24,6 +24,7 @@ section {
     margin-left: .5em;
     margin-right: .5em;
     /* margin: 1em; */
+    margin-bottom: 1em;
 }
 
 header {
@@ -47,8 +48,10 @@ footer {
 }
 
 .footer-element {
-    display: inline-flex;
+    /* display: inline-flex; */
+    /* align-items: stretch; */
     margin-left: .5em;
     margin-right: .5em;
     background-color: lightgray;
+    /* flex-direction: column; */
 }
