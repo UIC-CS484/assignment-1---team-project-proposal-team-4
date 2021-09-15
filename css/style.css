@@ -12,6 +12,24 @@ header {
   height: 200px;
 }
 
+.middleboxes {
+  width: 400px;
+  height: 500px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 400px;
+  background-color: grey;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#leftBox{
+  margin-right: 0.5%;
+}
+#rightBox{
+  margin-left: 0.5%;
+}
+
 footer{
   background-color: grey;
   display: flex;
@@ -21,26 +39,18 @@ footer{
 
 }
 
-.footer_element{
+.footer-element{
+  background-color: lightgrey;
+  margin: 0.5%;
   flex: 1 0 200px;
+  text-align: center;
 }
 
-.middleboxes {
-  width: 400px;
-  height: 500px;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 400px;
-  background-color: grey;
-  margin: 1%;
-}
-
-.footer_box{
+/* .footer-box{
   background-color: grey;
   width: 150px;
   height: 150px;
-  margin: 1%;
-}
+} */
 
 
 /* Grid Layout
