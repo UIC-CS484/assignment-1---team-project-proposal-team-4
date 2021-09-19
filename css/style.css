@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: grey;
+  background-color: #DADADA;
   width: 100%;
   height: 200px;
 }
@@ -18,7 +18,7 @@ header {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 400px;
-  background-color: grey;
+  background-color: #DADADA;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -31,7 +31,7 @@ header {
 }
 
 footer{
-  background-color: grey;
+  background-color: #DADADA;
   display: flex;
   width: 100%;
   height: 200px;
@@ -40,7 +40,7 @@ footer{
 }
 
 .footer-element{
-  background-color: lightgrey;
+  background-color: #BBBBBB;
   margin: 0.5%;
   flex: 1 0 200px;
   text-align: center;

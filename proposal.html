@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>Stock Visualizer Proposal</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Proposal of a stock visualizer site">
-        <meta name="keywords" content="Stock Visualizer, Proposal Stock Visualizer">
-        <meta name="author" content="wkao9, seank4, dmundr2">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Stock Visualizer Proposal</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Proposal of a stock visualizer site">
+    <meta name="keywords" content="Stock Visualizer, Proposal Stock Visualizer">
+    <meta name="author" content="wkao9, seank4, dmundr2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--External CSS file-->
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--External CSS file-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
-    </head>
+</head>
 
-    <!--
+<!--
         -Information needed-
         Potential Title: Stock Visualizer ?
         
@@ -41,27 +41,66 @@
 
         Accessibility Implementation:
     -->
-    <body>
-        <div id="container">
-            <header>
-                <h1>Title of project (Stock Visualizer)</h1>
-            </header>
 
-            <section class="middleboxes" id="leftBox">Address the following in this section</section>
-            <section class="middleboxes" id="rightBox">Address the following in this section</section>
+<body>
+    <div id="container">
+        <header>
+            <h1>Stock Visualizer</h1>
+        </header>
 
-            <footer class="footerbox">
-                <div class="footer-element">
-                    <p>List resource links</p>
-                </div>
-                <div class="footer-element">
-                    <p>List questions and concerns</p>
-                </div>
-                <div class="footer-element">
-                    <p>Accessibility information</p>
-                </div>
-            </footer>
-        </div>
-    </body>
+        <section class="middleboxes" id="leftBox">
+            <br>
+            API Name: Polygon.io
+            Justification: Polygon.io is a verbose, fast stock API that provides real time & historical data on US
+            stocks. Alongside that, it provides a javascript client library that is well documented. Other popular stock
+            applications and websites utilize this API as well.
+            <br>
+            The API we choose needs to be able to
+            Provide real time data on the current price of stocks
+            Provide detailed information on a stock
+            With this information, we’ll be able to provide insights on the stocks that the end-user may want to track
+            or invest in. Alongside that, this information can be used to track the potential gains or losses the
+            end-user has made.
+
+            Our web app will allow users to visualize this data for multiple stocks on one graph allowing them to gain
+            insight on patterns and trends. We will also allow visualization of different time periods of the same stock
+            on a single chart to give users insight on potential annual patterns.
+            <br>
+            Sensitive User Information
+            First and Last Name, DOB, Email, Phone Number
+            Stocks they choose to track
+            <br>
+            USER -> fname (string), lname (string), dob (date), email (string), password (string), stocks they are
+            watching (array), investment information (array)
+
+        </section>
+        <section class="middleboxes" id="rightBox">
+            Retail investors looking to gain more insight into their stock, crypto, and options investment strategies.
+            <br>
+            Allow users to visualize 2 or more stock price history charts over each other, to be able to visualize any
+            trends between them. <br>
+
+            Allow users to visualize multiple years of the same stock on one chart to visualize annual patterns that
+            occur on a given stock.
+
+            <br>
+            We are casual investors and thought these features would be useful to us when we are doing research on
+            different stocks and cryptocurrencies to purchase.
+            <br>
+        </section>
+
+        <footer class="footerbox">
+            <div class="footer-element">
+                <p>List resource links</p>
+            </div>
+            <div class="footer-element">
+                <p>List questions and concerns</p>
+            </div>
+            <div class="footer-element">
+                <p>Accessibility information</p>
+            </div>
+        </footer>
+    </div>
+</body>
 
 </html>
