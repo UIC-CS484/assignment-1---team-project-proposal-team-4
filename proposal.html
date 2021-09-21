@@ -45,76 +45,95 @@
 <body>
     <div id="container">
         <header>
-            <h1>Tidal</h1>
+            <h1 class="title_h1">Tidal</h1>
         </header>
 
         <section class="middleboxes" id="leftBox">
-            <br>
-            API Name: Polygon.io
-            Justification: Polygon.io is a verbose, fast stock API that provides real time & historical data on US
-            stocks. Alongside that, it provides a javascript client library that is well documented. Other popular stock
-            applications and websites utilize this API as well.
-            <br>
-            The API we choose needs to be able to
-            Provide real time data on the current price of stocks
-            Provide detailed information on a stock
-            With this information, we’ll be able to provide insights on the stocks that the end-user may want to track
-            or invest in. Alongside that, this information can be used to track the potential gains or losses the
-            end-user has made.
+            <div class="text_middlebox">
+                <b>RESTFul API:</b> <br>
+                API Name: Polygon.io
+                Justification: Polygon.io is a verbose, fast stock API that provides real time & historical data on US
+                stocks. Alongside that, it provides a javascript client library that is well documented. Other popular stock
+                applications and websites utilize this API as well.
+                <br><br>
+                <b>Insight and Information for end user:</b> <br>
+                The API we choose needs to be able to
+                Provide real time data on the current price of stocks
+                Provide detailed information on a stock
+                With this information, we’ll be able to provide insights on the stocks that the end-user may want to track
+                or invest in. Alongside that, this information can be used to track the potential gains or losses the
+                end-user has made.
 
-            Our web app will allow users to visualize this data for multiple stocks on one graph allowing them to gain
-            insight on patterns and trends. We will also allow visualization of different time periods of the same stock
-            on a single chart to give users insight on potential annual patterns.
-            <br>
-            Sensitive User Information
-            First and Last Name, DOB, Email, Phone Number
-            Stocks they choose to track
-            <br>
-            USER -> fname (string), lname (string), dob (date), email (string), password (string), stocks they are
-            watching (array), investment information (array)
+                Our web app will allow users to visualize this data for multiple stocks on one graph allowing them to gain
+                insight on patterns and trends. We will also allow visualization of different time periods of the same stock
+                on a single chart to give users insight on potential annual patterns.
+                <br><br>
+                <b>Data collected from authenticated user:</b> <br>
+                Sensitive User Information
+                First and Last Name, DOB, Email, Phone Number
+                Stocks they choose to track
+                <br><br>
+                <b>Data tables:</b> <br>
+                USER -> fname (string), lname (string), dob (date), email (string), password (string), stocks they are
+                watching (array), investment information (array)
+            </div>
 
         </section>
         <section class="middleboxes" id="rightBox">
-            Retail investors looking to gain more insight into their stock, crypto, and options investment strategies.
-            <br>
-            Allow users to visualize 2 or more stock price history charts over each other, to be able to visualize any
-            trends between them. <br>
+            <div class="text_middlebox">
+                <b>Potential users:</b> <br>
+                Retail investors looking to gain more insight into their stock, crypto, and options investment strategies.
+                <br><br>
 
-            Allow users to visualize multiple years of the same stock on one chart to visualize annual patterns that
-            occur on a given stock.
+                <b>Goals of the site:</b> <br>
+                Allow users to visualize 2 or more stock price history charts over each other, to be able to visualize any
+                trends between them. <br>
 
+                Allow users to visualize multiple years of the same stock on one chart to visualize annual patterns that
+                occur on a given stock.
+
+                <br><br>
+                <b>Why we selected the topic:</b> <br>
+                We are casual investors and thought these features would be useful to us when we are doing research on
+                different stocks and cryptocurrencies to purchase.
             <br>
-            We are casual investors and thought these features would be useful to us when we are doing research on
-            different stocks and cryptocurrencies to purchase.
-            <br>
+            </div>
         </section>
 
         <footer class="footerbox">
             <div class="footer-element">
-                <p>Resource Links:<br>
-                </p>
-                <ul>
-                    <li>https://polygon.io/ - Stock and crypto API</li>
-                    <li>https://www.tradingview.com/ - Example site to model ours after</li>
-                    <li>https://tinyurl.com/TeamSWE- Tips for team dev</li>
-                    <li>https://tinyurl.com/Stock-Market-Visualizer - Stock market vizualizer tutorial</li>
-                </ul>
+                <div class="footer-text">
+                    <p><b>Resource Links:</b><br></p>
+                    <ul>
+                        <li>https://polygon.io/ <br> &emsp;- Stock and crypto API</li>
+                        <li>https://www.tradingview.com/<br>&emsp;- Example site to model ours after</li>
+                        <li>https://tinyurl.com/TeamSWE-<br>&emsp;Tips for team dev</li>
+                        <li>https://tinyurl.com/Stock-Market-Visualizer<br>&emsp;- Stock market vizualizer tutorial</li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-element">
-                <p>List questions and concerns<br>
-                How can we effective and accurately detect drops and rise patterns consistently?<br>
-                What data are we going to get from the free API key?<br>
-                How much API request are we able to get and is it enough?<br>
-                Are we able to learn/accomplish good UI design so that the site is intuitive and easy to use?
-                </p>
+                <div class="footer-text">
+                   <p><b>List questions and concerns</b><br></p>
+                    <ul>
+                        <li>How can we effective and accurately detect drops and rise patterns consistently?</li>
+                        <li>What data are we going to get from the free API key?</li>
+                        <li>How much API request are we able to get and is it enough?</li>
+                        <li>Are we able to learn/accomplish good UI design so that the site is intuitive and easy to use?</li>
+
+                    </ul>
+                
+                </div>
             </div>
             <div class="footer-element">
-                <p>Accessibility information</p>
-                <ul>
-                    <li>Add alt text for all images used for screen readers</li>
-                    <li>Choose colors for the charts and content to support users with visual disabilities</li>
-                    <li>Add proper labels to form input fields and configure it to support scree readers</li>
-                </ul>
+                <div class="footer-text">
+                    <p><b>Accessibility information</b></p>
+                    <ul>
+                        <li>Add alt text for all images used for screen readers</li>
+                        <li>Choose colors for the charts and content to support users with visual disabilities</li>
+                        <li>Add proper labels to form input fields and configure it to support scree readers</li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </div>
