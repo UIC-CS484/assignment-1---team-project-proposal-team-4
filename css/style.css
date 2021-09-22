@@ -1,5 +1,4 @@
-
-#container{
+#container {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -7,17 +6,17 @@
 }
 
 header {
-  display:flex;
-  background-color: #DADADA;
+  display: flex;
+  background-color: #dadada;
   width: 100%;
   height: 200px;
   text-align: center;
 }
 
-.title_h1{
+.title_h1 {
   font-size: 100px;
   margin: auto;
-  width: 80%
+  width: 80%;
 }
 
 .middleboxes {
@@ -26,39 +25,48 @@ header {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 400px;
-  background-color: #DADADA;
+  background-color: #dadada;
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
-#leftBox{
+#leftBox {
   margin-right: 0.5%;
 }
-#rightBox{
+#rightBox {
   margin-left: 0.5%;
 }
 
-footer{
-  background-color: #DADADA;
+footer {
+  background-color: #dadada;
   display: flex;
   width: 100%;
   height: 250px;
   clear: both;
-
 }
 
-.footer-element{
-  background-color: #BBBBBB;
+.footer-element {
+  background-color: #bbbbbb;
   margin: 0.5%;
   flex: 1 0 200px;
 }
 
-.text_middlebox{
+.text_middlebox {
   margin: 5%;
 }
 
-.footer-text{
+.footer-text {
   margin: 2%;
+}
+
+/* for phone screens*/
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 100%;
+  }
+  .middleboxes {
+    width: 100%;
+  }
 }
 
 /* .footer-box{
@@ -66,7 +74,6 @@ footer{
   width: 150px;
   height: 150px;
 } */
-
 
 /* Grid Layout
 #container{
