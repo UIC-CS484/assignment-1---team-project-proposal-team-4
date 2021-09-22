@@ -1,12 +1,12 @@
 Group 4 Team Members
-Sean Kim (seank4@uic.edu)
-Wayne Kao ()
-idk your name rip lmao I apologize in advance ()
+Sean Kim (seank4@uic.edu)  
+Wayne Kao (wkao9)  
+Dean Mundrawala (dmundr2)  
 
-Team Workflow Strategy
+Team Workflow Strategy  
 
-Development Tools Used
+Development Tools Used  
 
--
+-  
 
-Link to Github Pages site
+Link to Github Pages site  
