@@ -1,8 +1,9 @@
 # Group 4 Team Members
 
-- Sean Kim (seank4@uic.edu)
-- Wayne Kao (wkao9@uic.edu)
-- Dean Mundrawala (dmundr2@uic.edu)
+All Responsibilities: Fullstack Devs, React Devs
+- Sean Kim (seank4@uic.edu) - Fetch Requests and Data State Management  
+- Wayne Kao (wkao9@uic.edu) - Design and Component Builder, Styling, Authentication  
+- Dean Mundrawala (dmundr2@uic.edu) - Database, Design and Component Builder, Graphs  
 
 # Team Workflow Strategy
 
@@ -23,6 +24,7 @@
 - Passportjs
 - React.js
 - SQLite
+- Chart.js
 
 # Link to Github Pages site
 https://uic-cs484.github.io/assignment-1---team-project-proposal-team-4/  
