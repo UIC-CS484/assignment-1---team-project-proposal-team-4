@@ -25,3 +25,4 @@
 - SQLite
 
 # Link to Github Pages site
+https://uic-cs484.github.io/assignment-1---team-project-proposal-team-4/  
